@@ -12,7 +12,7 @@ This is my first Python project -- feedback is appreciated!
 3. Create: `git checkout -b my-new-feature`
 4. Commit: `git commit -am 'Add some feature'`
 5. Push: `git push origin my-new-feature`
-6. Submit a pull request :P
+6. [Pull](https://github.com/philosolog/fork/pulls)!
 
 ## Author
 
