@@ -1,6 +1,9 @@
 # fork
 A Python [SPORK](https://spork.school/courses) file scraper.
 
+# fork the fork
+This is my first Python project -- feedback is appreciated.
+
                                 ▓▓                                                                                                    
                                 ░░▓▓                                                                                                  
                         ▓▓░░      ▓▓▓▓                                                                                                
