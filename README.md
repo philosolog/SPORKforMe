@@ -5,6 +5,8 @@ A Python [SPORK](https://spork.school/courses) file scraper.
 - Compile course assignments from SPORKForAll.
 
 ## Contributing
+This is my first Python project -- feedback is appreciated!
+
 1. [Fork the fork](https://github.com/philosolog/fork)!
 2. Clone: `git clone https://github.com/your-username/fork.git`
 3. Create: `git checkout -b my-new-feature`
