@@ -1,8 +1,23 @@
 # fork
 A Python [SPORK](https://spork.school/courses) file scraper.
 
-# fork the fork
-This is my first Python project -- feedback is appreciated.
+## Features
+- Compile course assignments from SPORKForAll.
+
+## Contributing
+1. [Fork the fork](https://github.com/philosolog/fork)!
+2. Clone your fork: `git clone https://github.com/your-username/fork.git`
+3. Create your feature branch: `git checkout -b my-new-feature`
+4. Commit your changes: `git commit -am 'Add some feature'`
+5. Push to the branch: `git push origin my-new-feature`
+6. Submit a pull request :D
+
+## Author
+
+**fork** by [philosolog](https://github.com/philosolog).  
+Authored and maintained by philosolog.
+
+> GitHub [@philosolog](https://github.com/philosolog)
 
                                 ▓▓                                                                                                    
                                 ░░▓▓                                                                                                  
