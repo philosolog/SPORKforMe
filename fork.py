@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
+from pathlib import Path
 
 driver = webdriver.Chrome(
 	chrome_options = Options().add_experimental_option('prefs',  {
@@ -41,12 +42,13 @@ def download(url, course, type):
 	else:
 		local_filename = "Courses/" + course + "/" + url.split('/')[-1]
 
-	with requests.get(url, stream = True) as r:
-		r.raise_for_status()
+	if Path(local_filename).is_file() == False:
+		with requests.get(url, stream = True) as r:
+			r.raise_for_status()
 
-		with open(local_filename, 'wb') as f:
-			for chunk in r.iter_content(chunk_size=8192):
-				f.write(chunk)
+			with open(local_filename, 'wb') as f:
+				for chunk in r.iter_content(chunk_size=8192):
+					f.write(chunk)
 
 	return local_filename
 
@@ -95,7 +97,7 @@ for course in courses:
 
 			wait.until(EC.presence_of_element_located((By.XPATH, "//div[contains(@class, 'lessonSelector')]")))
 
-			for element in driver.find_elements(By.PARTIAL_LINK_TEXT, ".pdf"):
+			for element in driver.find_elements(By.XPATH, "//a[contains(@rel, 'noopener noreferrer')]"):
 				list.append(pdfs, element.get_attribute("href"))
 
 			if len(pdfs) > 0:
