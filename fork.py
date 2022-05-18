@@ -8,6 +8,7 @@ from selenium.webdriver.chrome.options import Options
 from pathlib import Path
 
 driver = webdriver.Chrome(
+	executable_path = '../chromedriver.exe',
 	chrome_options = Options().add_experimental_option('prefs',  {
 			"download.prompt_for_download": False,
 			"download.directory_upgrade": True,
