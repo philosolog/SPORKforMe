@@ -8,7 +8,7 @@ from selenium.webdriver.chrome.options import Options
 from pathlib import Path
 
 driver = webdriver.Chrome(
-	executable_path = '../chromedriver.exe',
+	executable_path = './chromedriver.exe', # TODO: Automate chromedriver installation.
 	chrome_options = Options().add_experimental_option('prefs',  {
 			"download.prompt_for_download": False,
 			"download.directory_upgrade": True,
@@ -21,7 +21,7 @@ courses = list()
 assignments = dict()
 
 driver.get("https://spork.school/assignments")
-driver.find_element(By.NAME, "username").send_keys("OV_170704")
+driver.find_element(By.NAME, "username").send_keys("OV_170704") # TODO: Ask for login info.
 driver.find_element(By.NAME, "password").send_keys("explicit14")
 driver.find_element(By.XPATH, "//button[text()='LOGIN']").click()
 time.sleep(4)
@@ -81,7 +81,7 @@ for course in driver.find_elements(By.XPATH, "//table[contains(@class, 'ui very 
 while True:
 	if len(assignments) == len(courses) - 1: #a course doesnt show up
 		break
-for course in courses:
+for course in courses: # TODO: Assets
 	try:
 		assignments[course]	
 	except KeyError:
@@ -108,6 +108,8 @@ for course in courses:
 			driver.back()
 		except:
 			continue
+
+print("Download sequence completed.")
 '''
                                                                                                                               
                         ▓▓                                                                                                    
