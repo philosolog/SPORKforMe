@@ -7,23 +7,15 @@ A Python [SPORK](https://spork.school/courses) file scraper.
 
 ## Features
 - Compile course assignments from SPORKForAll.
+- Download assets from each course tab.
 
 ## Contributing
-This is my first Python project -- feedback is appreciated!
-
-1. [Fork the fork](https://github.com/philosolog/fork)!
-2. Clone: `git clone https://github.com/your-username/fork.git`
-3. Create: `git checkout -b my-new-feature`
-4. Commit: `git commit -am 'Add some feature'`
-5. Push: `git push origin my-new-feature`
-6. [Pull](https://github.com/philosolog/fork/pulls)!
+You can also fix my 2022 messy Python! I encourage it..
+[Fork the fork](https://github.com/philosolog/fork)!
 
 ## Author
+Authored and maintained by [@philosolog](https://github.com/philosolog).
 
-**fork** by [philosolog](https://github.com/philosolog).  
-Authored and maintained by philosolog.
-
-> GitHub [@philosolog](https://github.com/philosolog)
 
                                 ▓▓                                                                                                    
                                 ░░▓▓                                                                                                  
