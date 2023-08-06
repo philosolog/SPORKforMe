@@ -1,3 +1,7 @@
+# This no longer works as intended... My school updated SPORK's interface...
+I might make a new version for this year's version of SPORK. The new UI is nice though.
+Everything below this needs to be updated. /shrug
+
 # fork
 A Python [SPORK](https://spork.school/courses) file scraper.
 
