@@ -1,5 +1,5 @@
 # This no longer functions... My school updated SPORK's interface...
-I might make a new version for this year's version of SPORK. The new UI is nice though.
+I might make a new version for this year's version of SPORK. The new UI is nice though- other than the renaming to SPORKforYou..
 Everything below this needs to be updated. /shrug
 
 # fork
