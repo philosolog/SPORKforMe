@@ -129,3 +129,6 @@ dmypy.json
 .pyre/
 /Courses
 /env
+
+# Ruff
+.ruff_cache

@@ -1,0 +1,13 @@
+[project]
+name = "sporkforme"
+version = "0.1.0"
+description = "A file scraper for SPORK."
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "python-dotenv",
+    "requests>=2.32.5",
+    "selenium>=4.39.0",
+    "ruff>=0.6.0",
+    "mypy>=1.0.0",
+]
